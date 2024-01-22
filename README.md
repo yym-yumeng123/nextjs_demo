@@ -1,2 +1,4 @@
-# nextjs_demo
-使用Nextjs 创建 React 应用
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Getting Started
+
