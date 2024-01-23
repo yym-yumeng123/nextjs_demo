@@ -32,13 +32,13 @@ export const config = {
   matcher: ["/"],
 }
 
-export function middleware(request: NextRequest) {
-  const isAuthenticated = authenticate(request)
+// export function middleware(request: NextRequest) {
+//   const isAuthenticated = authenticate(request)
 
-  // If the user is authenticated, continue as normal
-  if (isAuthenticated) {
-    return NextResponse.next()
-  }
+//   // If the user is authenticated, continue as normal
+//   if (isAuthenticated) {
+//     return NextResponse.next()
+//   }
 
-  return NextResponse.redirect(new URL('/login', request.url))
-}
+//   return NextResponse.redirect(new URL('/login', request.url))
+// }
