@@ -20,12 +20,7 @@ export default function Home() {
       </header>
       <div className='flex items-center justify-center m-4'>
         <main className='flex flex-col items-center justify-center w-full border-x-2 sm:w-full md:w-9/12'>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
-            voluptatum consectetur expedita facere! Aliquid laudantium nesciunt
-            eos dolores minus, soluta quas? Eos, officia qui at incidunt iusto
-            cum dolorum aperiam?
-          </p>
+          <p>Hello, Home page</p>
         </main>
       </div>
     </div>
